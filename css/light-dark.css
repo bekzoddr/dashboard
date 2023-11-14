@@ -1,0 +1,4 @@
+.dark header, .dark table, .dark aside{
+    background-color: black;
+    color: azure;
+}

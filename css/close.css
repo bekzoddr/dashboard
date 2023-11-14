@@ -1,0 +1,7 @@
+.close  {
+  width: 56px;
+  
+}
+.close .nav-link, .close .title {
+    opacity: 0;
+}

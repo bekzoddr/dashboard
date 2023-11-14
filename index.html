@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <aside>
+      <nav>
+        <a href="#" class="logo-link">
+          <img src="./images/aside.logo.svg" alt="logo" />
+          <h1 class="title">Dashboard</h1>
+        </a>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <img src="./images/1. overview.svg" alt="logo" /><a
+              href="#"
+              class="nav-link"
+              >Overview</a
+            >
+          </li>
+          <li class="nav-item">
+            <img src="./images/2. tickets.svg" alt="logo" /><a
+              href="#"
+              class="nav-link"
+              >Tickets</a
+            >
+          </li>
+          <li class="nav-item">
+            <img src="./images/3. ideas.svg" alt="logo" /><a
+              href="#"
+              class="nav-link"
+              >Ideas</a
+            >
+          </li>
+          <li class="nav-item">
+            <img src="./images/4. contacts.svg" alt="logo" /><a
+              href="#"
+              class="nav-link"
+              >Contacts</a
+            >
+          </li>
+          <li class="nav-item">
+            <img src="./images/5. agents.svg" alt="logo" /><a
+              href="#"
+              class="nav-link"
+              >Agents</a
+            >
+          </li>
+          <li class="nav-item">
+            <img src="./images/6. articles.svg" alt="logo" /><a
+              href="#"
+              class="nav-link"
+              >Articles</a
+            >
+          </li>
+        </ul>
+        <div class="bottom-btn">
+          <form>
+            <input type="checkbox" class="switch" />
+          </form>
+          <label for="checkbox">Change mode</label>
+          <img src="./images/logout.svg" alt="" />
+          <a class="#" href="#">Logout</a>
+        </div>
+      </nav>
+    </aside>
+    <header>
+      <button class="hamburger"><i class="fa-solid fa-bars"></i></button>
+      <h1>Jones Ferdinand</h1>
+      <img src="./images/profile circle.svg" alt="circle" />
+      <img src="./images/m header.png" alt="man" />
+    </header>
+    <main>
+      <section class="headline">
+        <h1>Overview</h1>
+        <button id="more">...</button>
+        <button id="add">Add</button>
+      </section>
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th class="first">Owner</th>
+              <th>End date</th>
+              <th>Profits</th>
+              <th>Losses</th>
+              <th class="last">Phone</th>
+            </tr>
+          </thead>
+          <tbody class="table-box">
+            <tr>
+              <td>Savannah Nguyen</td>
+              <td>1/15/12</td>
+              <td id="high-price">$328.85</td>
+              <td id="low-price">$779.58</td>
+              <td>(603) 555-0123</td>
+            </tr>
+            <tr>
+              <td>Jenny Wilson</td>
+              <td>8/30/14</td>
+              <td id="high-price">$948.55</td>
+              <td id="low-price">$589.99</td>
+              <td>(629) 555-0129</td>
+            </tr>
+            <tr>
+              <td>Annette Black</td>
+              <td>5/30/14</td>
+              <td id="high-price">$778.35</td>
+              <td id="low-price">$948.55</td>
+              <td>(308) 555-0121</td>
+            </tr>
+            <tr>
+              <td>Kathryn Murphy</td>
+              <td>11/7/16</td>
+              <td id="high-price">$169.43</td>
+              <td id="low-price">$202.87</td>
+              <td>(302) 555-0107</td>
+            </tr>
+            <tr>
+              <td>Cameron Williamson</td>
+              <td>7/27/13</td>
+              <td id="high-price">$782.01</td>
+              <td id="low-price">$710.68</td>
+              <td>(303) 555-0105</td>
+            </tr>
+            <tr>
+              <td>Kristin Watson</td>
+              <td>5/19/12</td>
+              <td id="high-price">$767.50</td>
+              <td id="low-price">$779.58</td>
+              <td>(225) 555-0118</td>
+            </tr>
+            <tr>
+              <td>Eleanor Pena</td>
+              <td>8/21/15</td>
+              <td id="high-price">$475.22</td>
+              <td id="low-price">$219.78</td>
+              <td>(205) 555-0100</td>
+            </tr>
+            <tr>
+              <td>Guy Hawkins</td>
+              <td>5/27/15</td>
+              <td id="high-price">$576.28</td>
+              <td id="low-price">$446.61</td>
+              <td>(207) 555-0119</td>
+            </tr>
+            <tr>
+              <td>Brooklyn Simmons</td>
+              <td>3/4/16</td>
+              <td id="high-price">$219.78</td>
+              <td id="low-price">$928.41</td>
+              <td>(201) 555-0124</td>
+            </tr>
+            <tr>
+              <td>Robert Fox</td>
+              <td>4/4/18</td>
+              <td id="high-price">$202.87</td>
+              <td id="low-price">$275.43</td>
+              <td>(684) 555-0102</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
